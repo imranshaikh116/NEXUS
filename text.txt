@@ -1,0 +1,28 @@
+{
+  "target_career": "Machine Learning Engineer",
+  "current_skills": ["Python", "Git"]
+}
+
+
+
+
+
+
+
+{
+  "name": "Amit",
+  "education_level": "CSE",
+  "interests": ["Programming", "AI"],
+  "current_skills": ["Python", "Git"],
+  "career_goal": "AI Engineer"
+}
+
+
+{
+  "education": "CSE",
+  "interests": ["Programming", "AI"],
+  "current_skills": ["Python", "Git"],
+  "career": "Machine Learning Engineer",
+  "missing_skills": ["Statistics", "Linear Algebra", "Machine Learning"],
+  "question": "How should I start preparing for this career?"
+}

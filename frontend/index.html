@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS Career AI - Professional Career Guidance</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="AI-Powered Career Guidance Platform for Engineers" />
+  <!-- Chart.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <!-- Chart.js Doughnut Plugin for Center Text -->
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <span class="logo-icon">◆</span>
+        <h1>NEXUS</h1>
+      </div>
+      <p class="tagline">AI-Powered Career Guidance for Engineers</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Student Profile Section -->
+    <section class="section profile-section">
+      <div class="section-header">
+        <h2>Student Profile</h2>
+        <p>Tell us about yourself to get personalized career recommendations</p>
+      </div>
+      
+      <form class="profile-form" id="profileForm">
+        <div class="form-group">
+          <label for="education">Education</label>
+          <input 
+            type="text" 
+            id="education" 
+            placeholder="e.g., Computer Science, IT, Electronics"
+            aria-describedby="education-hint"
+          />
+          <span class="input-hint" id="education-hint">Your branch or field of study</span>
+        </div>
+
+        <div class="form-group">
+          <label for="interests">Interests</label>
+          <input 
+            type="text" 
+            id="interests" 
+            placeholder="e.g., AI, Web Development, Robotics, Data Science"
+            aria-describedby="interests-hint"
+          />
+          <span class="input-hint" id="interests-hint">Separate multiple interests with commas</span>
+        </div>
+
+        <div class="form-group">
+          <label for="skills">Current Skills</label>
+          <input 
+            type="text" 
+            id="skills" 
+            placeholder="e.g., Python, Java, JavaScript, SQL"
+            aria-describedby="skills-hint"
+          />
+          <span class="input-hint" id="skills-hint">Separate multiple skills with commas</span>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-primary" onclick="getCareers()">
+            <span class="btn-icon">◈</span>
+            Analyze Career Paths
+          </button>
+          <button type="button" class="btn btn-secondary" onclick="startQuiz()">
+            <span class="btn-icon">◆</span>
+            Take Career Quiz
+          </button>
+          <button type="button" class="btn btn-secondary" onclick="showAnalyticsDashboard()">
+            <span class="btn-icon">📊</span>
+            View Analytics
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Loading State -->
+    <div id="loadingState" class="loading-state hidden">
+      <div class="loading-spinner"></div>
+      <p>Analyzing your profile...</p>
+    </div>
+
+    <!-- Quiz Section -->
+    <section id="quizSection" class="section quiz-section hidden">
+      <div class="quiz-container">
+        <div class="quiz-header">
+          <h2>Career Personality Quiz</h2>
+          <p>Answer 20 questions to discover your ideal career path</p>
+          <div class="quiz-progress">
+            <span id="quizProgress">Question 1 of 20</span>
+            <div class="progress-bar">
+              <div id="progressBar" class="progress-fill"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="quizContent" class="quiz-content">
+          <h3 id="quizQuestion"></h3>
+          <div id="quizOptions" class="quiz-options"></div>
+        </div>
+
+        <div id="quizResult" class="quiz-result hidden">
+          <h3>Your Career Personality</h3>
+          <div id="quizResultContent"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Motivational Quotes Section -->
+    <section class="section quotes-section">
+      <div class="quotes-container">
+        <div class="quote-card">
+          <p class="quote-text">"Direction creates discipline." ⭐⭐</p>
+        </div>
+        <div class="quote-card">
+          <p class="quote-text">"Growth begins the moment confusion ends." ⭐⭐</p>
+        </div>
+        <div class="quote-card">
+          <p class="quote-text">"Your career should excite you, not exhaust you." ⭐⭐</p>
+        </div>
+        <div class="quote-card">
+          <p class="quote-text">"Stop guessing. Start guiding." ⭐⭐</p>
+        </div>
+        <div class="quote-card">
+          <p class="quote-text">"The right path feels challenging—but never empty." ⭐⭐</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Career Results Section -->
+    <section id="careerResultsSection" class="section results-section hidden">
+      <div class="section-header">
+        <h2>Recommended Career Paths</h2>
+        <p>Based on your profile and interests</p>
+      </div>
+      <div id="careerResults" class="career-grid"></div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmapSection" class="section roadmap-section hidden">
+      <div class="section-header">
+        <h2>Learning Roadmap</h2>
+        <p>Your personalized path to becoming a <span id="selectedCareerName"></span></p>
+      </div>
+      <div id="roadmap" class="roadmap-container"></div>
+    </section>
+
+    <!-- Analytics Dashboard Section -->
+    <section id="analyticsSection" class="section analytics-section hidden">
+      <div class="section-header">
+        <h2>Analytics Dashboard</h2>
+        <p>Visual insights into your career profile and skill analysis</p>
+      </div>
+      
+      <!-- Analytics Grid -->
+      <div class="analytics-grid">
+        <!-- Skill Distribution Chart -->
+        <div class="analytics-card">
+          <h3>Skill Distribution</h3>
+          <p class="analytics-card-subtitle">Your current skills breakdown</p>
+          <div class="chart-container">
+            <canvas id="skillDistributionChart"></canvas>
+          </div>
+          <div id="skillStats" class="skill-stats"></div>
+        </div>
+
+        <!-- Career Match Scores Chart -->
+        <div class="analytics-card">
+          <h3>Career Match Scores</h3>
+          <p class="analytics-card-subtitle">How well you match each career</p>
+          <div class="chart-container">
+            <canvas id="careerMatchChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Quiz Personality Radar -->
+        <div class="analytics-card">
+          <h3>Career Personality Profile</h3>
+          <p class="analytics-card-subtitle">Your quiz personality dimensions</p>
+          <div class="chart-container">
+            <canvas id="quizPersonalityChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Skill Gap Analysis -->
+        <div class="analytics-card">
+          <h3>Skill Gap Analysis</h3>
+          <p class="analytics-card-subtitle">Skills needed for target careers</p>
+          <div class="chart-container">
+            <canvas id="skillGapChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Learning Progress -->
+        <div class="analytics-card analytics-card-wide">
+          <h3>Learning Progress</h3>
+          <p class="analytics-card-subtitle">Track your roadmap completion</p>
+          <div id="learningProgressContainer" class="learning-progress-container"></div>
+        </div>
+
+        <!-- Industry Demand -->
+        <div class="analytics-card">
+          <h3>Industry Demand</h3>
+          <p class="analytics-card-subtitle">Career demand trends (2024)</p>
+          <div class="chart-container">
+            <canvas id="industryDemandChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- View Analytics Button -->
+      <div class="analytics-actions">
+        <button class="btn btn-primary" onclick="showAnalyticsDashboard()">
+          <span class="btn-icon">📊</span>
+          Update Analytics
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Floating Chat Button -->
+  <button id="chatToggle" class="chat-toggle" onclick="toggleChat()" aria-label="Open chat">
+    <span class="chat-icon">💬</span>
+  </button>
+
+  <!-- Chatbot Panel -->
+  <div id="chatPanel" class="chat-panel hidden" role="dialog" aria-label="AI Career Mentor Chat">
+    <div class="chat-header">
+      <div class="chat-header-content">
+        <span class="chat-avatar">◆</span>
+        <div class="chat-header-info">
+          <span class="chat-title">AI Career Mentor</span>
+          <span class="chat-status">Online</span>
+        </div>
+      </div>
+      <button class="chat-close" onclick="toggleChat()" aria-label="Close chat">✕</button>
+    </div>
+
+    <div id="chatMessages" class="chat-messages" role="log" aria-live="polite">
+      <div class="chat-welcome">
+        <p>👋 Hi! I'm your AI Career Mentor. I can help you with:</p>
+        <ul>
+          <li>Career path recommendations</li>
+          <li>Skill development guidance</li>
+          <li>Industry insights</li>
+          <li>Resume and interview tips</li>
+        </ul>
+        <p>Ask me anything about your career journey!</p>
+      </div>
+    </div>
+
+    <div class="chat-input-container">
+      <textarea 
+        id="question" 
+        class="chat-input" 
+        placeholder="Ask about your career..."
+        aria-label="Your question"
+        rows="1"
+      ></textarea>
+      <button class="chat-send" onclick="askChatbot()" aria-label="Send message">
+        <span>➤</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast Notifications -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>Built with FastAPI + Local LLM (LM Studio)</p>
+      <p class="footer-brand">NEXUS Career AI Platform</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

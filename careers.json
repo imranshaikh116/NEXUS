@@ -1,0 +1,1812 @@
+[
+{
+    "career": "Software Engineer",
+    "branch": ["CSE", "IT"],
+    "interests": ["Programming", "Problem Solving", "Technology"],
+    "required_skills": ["Python", "Java", "Data Structures", "Algorithms", "Git", "Databases"],
+    "tools": ["VS Code", "GitHub"],
+    "difficulty": "Medium",
+    "certifications": ["AWS Certified Developer", "Oracle Certified Professional", "Google Professional Developer"],
+    "startup_guidance": {
+      "target_market": "B2B SaaS, Enterprise Software, Mobile Apps",
+      "business_model": "Subscription-based SaaS, Licensing, Custom Development",
+      "key_skills": ["Full-stack Development", "Cloud Architecture", "Product Management"],
+      "initial_steps": ["Build MVP in cloud", "Identify niche problem", "Get first 10 customers free"],
+      "funding_options": ["Bootstrapping", "Angel Investors", "Y Combinator"],
+      "growth_potential": "High - scalable digital products with recurring revenue"
+    }
+  },
+  {
+    "career": "Full Stack Developer",
+    "branch": ["CSE", "IT"],
+    "interests": ["Web Development", "Programming"],
+    "required_skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Databases"],
+    "tools": ["VS Code", "MongoDB"],
+    "difficulty": "Medium",
+    "certifications": ["AWS Certified Developer", "Microsoft Certified: Azure Developer", "Google Professional Cloud Developer", "MongoDB Certified Developer"],
+    "exams": ["AWS Developer Associate", "Microsoft AZ-204", "Google Cloud Professional Developer"],
+    "future_trends": ["Full-stack roles evolving towards specialized roles", "Increased focus on cloud-native development", "Rise of low-code/no-code platforms", "Growing demand for DevOps integration"]
+  },
+  {
+    "career": "Data Analyst",
+    "branch": ["CSE", "IT", "ECE", "Mechanical"],
+    "interests": ["Data", "Analysis", "Statistics"],
+    "required_skills": ["Excel", "SQL", "Python", "Statistics", "Data Visualization"],
+    "tools": ["Power BI", "Tableau"],
+    "difficulty": "Medium",
+    "certifications": ["Microsoft Certified: Power BI Data Analyst", "Google Data Analytics Professional Certificate", "SAS Certified Data Scientist", "IBM Data Analyst Professional Certificate"],
+    "exams": ["Microsoft PL-300", "Google Data Analytics Certificate", "SAS Base Programming"],
+    "future_trends": ["AI-driven analytics becoming mainstream", "Real-time data processing and streaming analytics", "Increased focus on data ethics and privacy", "Growth of self-service analytics tools"]
+  },
+  {
+    "career": "Data Engineer",
+    "branch": ["CSE", "IT"],
+    "interests": ["Data", "ETL", "Pipelines"],
+    "required_skills": ["Python", "SQL", "Apache Spark", "Airflow", "Data Warehousing"],
+    "tools": ["Apache Spark", "AWS Glue", "Snowflake"],
+    "difficulty": "Hard",
+    "certifications": ["AWS Certified Data Analytics Specialty", "Google Professional Data Engineer", "Microsoft Certified: Azure Data Engineer", "Cloudera Certified Data Engineer"],
+    "exams": ["AWS Data Analytics Specialty", "Google Professional Data Engineer", "Microsoft DP-203"],
+    "future_trends": ["Real-time data processing becoming standard", "Increased adoption of data mesh architectures", "Rise of data governance and compliance", "Integration of AI/ML in data pipelines"]
+  },
+  {
+    "career": "Machine Learning Engineer",
+    "branch": ["CSE", "IT"],
+    "interests": ["AI", "Math", "Programming"],
+    "required_skills": ["Python", "Linear Algebra", "Statistics", "Machine Learning", "Deep Learning"],
+    "tools": ["TensorFlow", "PyTorch"],
+    "difficulty": "Hard",
+    "certifications": ["TensorFlow Developer Certificate", "AWS Machine Learning Specialty", "Google Professional Machine Learning Engineer", "Microsoft Azure AI Engineer"],
+    "exams": ["TensorFlow Certificate", "AWS ML Specialty", "Google Professional ML Engineer"],
+    "future_trends": ["MLOps becoming standard practice", "Edge AI and federated learning growth", "Increased focus on model interpretability and ethics", "Integration with quantum computing"]
+  },
+  {
+    "career": "AI Research Engineer",
+    "branch": ["CSE", "IT"],
+    "interests": ["Research", "AI"],
+    "required_skills": ["Python", "Math", "Deep Learning", "Research Papers"],
+    "tools": ["PyTorch", "Jupyter"],
+    "difficulty": "Hard",
+    "certifications": ["Deep Learning Specialization (Coursera)", "AI Research Professional Certificate", "Machine Learning Research Certificate", "Advanced AI Research Certification"],
+    "exams": ["Deep Learning Specialization", "AI Research Certificate", "Machine Learning Research Exam"],
+    "future_trends": ["Multimodal AI research becoming mainstream", "AI safety and alignment research critical", "Quantum machine learning integration", "Federated learning for privacy-preserving research"]
+  },
+  {
+    "career": "Cybersecurity Engineer",
+    "branch": ["CSE", "IT"],
+    "interests": ["Security", "Networking"],
+    "required_skills": ["Networking", "Linux", "Cryptography", "Ethical Hacking"],
+    "tools": ["Wireshark", "Kali Linux"],
+    "difficulty": "Hard",
+    "certifications": ["CISSP", "CEH (Certified Ethical Hacker)", "CompTIA Security+", "CISM"],
+    "exams": ["CISSP Exam", "CEH Exam", "CompTIA Security+ Exam"],
+    "future_trends": ["Zero-trust security models becoming standard", "AI-driven threat detection and response", "Quantum-resistant cryptography development", "Increased focus on supply chain security"]
+  },
+  {
+    "career": "Cloud Engineer",
+    "branch": ["CSE", "IT"],
+    "interests": ["Cloud", "Infrastructure"],
+    "required_skills": ["Linux", "Networking", "AWS", "Docker", "Kubernetes"],
+    "tools": ["AWS", "Azure"],
+    "difficulty": "Medium",
+    "certifications": ["AWS Certified Solutions Architect", "Microsoft Certified: Azure Solutions Architect", "Google Professional Cloud Architect", "Certified Kubernetes Administrator"],
+    "exams": ["AWS Solutions Architect Associate", "Microsoft AZ-305", "Google Cloud Professional Cloud Architect"],
+    "future_trends": ["Multi-cloud architectures becoming standard", "Serverless computing mainstream adoption", "Edge computing integration", "Increased focus on cloud security and compliance"]
+  },
+  {
+    "career": "DevOps Engineer",
+    "branch": ["CSE", "IT"],
+    "interests": ["Automation", "Cloud"],
+    "required_skills": ["Linux", "CI/CD", "Docker", "Kubernetes", "Cloud"],
+    "tools": ["Jenkins", "GitHub Actions"],
+    "difficulty": "Hard",
+    "certifications": ["AWS DevOps Engineer Professional", "Microsoft Certified: DevOps Engineer Expert", "Docker Certified Associate", "Certified Kubernetes Administrator"],
+    "exams": ["AWS DevOps Engineer Professional", "Microsoft AZ-400", "Docker DCA", "CKA"],
+    "future_trends": ["GitOps becoming mainstream", "Increased adoption of service mesh technologies", "Platform engineering roles emerging", "AI-assisted DevOps automation"]
+  },
+  {
+    "career": "IoT Engineer",
+    "branch": ["CSE", "IT", "ECE"],
+    "interests": ["IoT", "Sensors", "Connectivity"],
+    "required_skills": ["Python", "Embedded C", "Networking", "Cloud", "MQTT"],
+    "tools": ["Arduino", "Raspberry Pi", "AWS IoT"],
+    "difficulty": "Hard",
+    "certifications": ["AWS IoT Specialty", "Microsoft Azure IoT Developer", "Google Cloud IoT Developer", "Cisco IoT Fundamentals"],
+    "exams": ["AWS IoT Specialty", "Microsoft AZ-220", "Google Cloud IoT Developer"],
+    "future_trends": ["Edge AI integration in IoT devices", "5G and 6G enabling massive IoT deployments", "Increased focus on IoT security and privacy", "Sustainable IoT with energy harvesting"]
+  },
+  {
+    "career": "Product Engineer",
+    "branch": ["All"],
+    "interests": ["Innovation", "Problem Solving"],
+    "required_skills": ["System Design", "Communication", "Technical Knowledge"],
+    "tools": ["Jira", "Figma"],
+    "difficulty": "Medium",
+    "certifications": ["Certified Scrum Product Owner (CSPO)", "Product Management Professional (PMP)", "Google Product Management Certificate", "Pragmatic Institute Product Management"],
+    "exams": ["CSPO Exam", "PMP Exam", "Google Product Management Certificate"],
+    "future_trends": ["AI-assisted product development and decision making", "Increased focus on sustainability and ethical product design", "Platform economy and API-first product strategies", "Remote-first product development teams"]
+  },
+
+  {
+    "career": "Electronics Design Engineer",
+    "branch": ["ECE"],
+    "interests": ["Electronics", "Circuits"],
+    "required_skills": ["Analog Circuits", "Digital Electronics", "PCB Design"],
+    "tools": ["MATLAB", "Proteus"],
+    "difficulty": "Medium",
+    "certifications": ["Certified Electronics Design Engineer", "PCB Design Certification", "Analog Circuit Design Certificate", "Altium Designer Certification"],
+    "exams": ["Electronics Design Engineer Certification", "PCB Design Exam", "Analog Design Exam"],
+    "future_trends": ["Miniaturization and high-density PCB design", "Integration with AI for automated design", "Sustainable electronics and eco-friendly materials", "High-speed digital design for 5G/6G applications"]
+  },
+  {
+    "career": "Embedded Systems Engineer",
+    "branch": ["ECE", "EEE"],
+    "interests": ["Hardware", "Programming"],
+    "required_skills": ["C", "Microcontrollers", "Embedded C", "RTOS"],
+    "tools": ["Arduino", "Keil"],
+    "difficulty": "Hard",
+    "certifications": ["Certified Embedded Systems Engineer", "ARM Accredited Engineer", "Embedded Linux Certification", "Real-Time Operating Systems Certificate"],
+    "exams": ["Embedded Systems Certification Exam", "ARM Accreditation Exam", "RTOS Certification Exam"],
+    "future_trends": ["Edge computing and AI integration in embedded systems", "Increased focus on energy-efficient embedded designs", "Rise of secure embedded systems with hardware security modules", "Integration with 5G and IoT ecosystems"]
+  },
+  {
+    "career": "VLSI Engineer",
+    "branch": ["ECE"],
+    "interests": ["Chip Design", "Electronics"],
+    "required_skills": ["Verilog", "VHDL", "CMOS", "Digital Design"],
+    "tools": ["Cadence", "Synopsys"],
+    "difficulty": "Hard",
+    "certifications": ["VLSI Design Certification", "ASIC Design Certification", "FPGA Design Certification", "CMOS Design Certification"],
+    "exams": ["VLSI Design Exam", "ASIC Certification Exam", "FPGA Design Exam"],
+    "future_trends": ["3D IC stacking becoming mainstream", "Chiplet-based designs for heterogeneous integration", "AI-driven chip design automation", "Quantum-dot cellular automata for ultra-low power"]
+  },
+  {
+    "career": "Avionics Engineer",
+    "branch": ["ECE", "Aerospace"],
+    "interests": ["Aviation", "Electronics"],
+    "required_skills": ["Avionics", "Radar", "Signal Processing", "Flight Control Systems"],
+    "tools": ["MATLAB", "Simulink"],
+    "difficulty": "Hard",
+    "certifications": ["FAA Avionics Certification", "DO-178C Certification", "ARINC Standards Certification", "Avionics Systems Certification"],
+    "exams": ["FAA Avionics Exam", "DO-178C Exam", "ARINC Standards Exam"],
+    "future_trends": ["Integration with AI for autonomous flight systems", "Increased focus on cybersecurity for avionics", "Next-generation communication systems (6G)", "Sustainable avionics with reduced power consumption"]
+  },
+  {
+    "career": "Automation Engineer",
+    "branch": ["ECE", "Mechanical", "IT"],
+    "interests": ["Automation", "Control Systems"],
+    "required_skills": ["PLC", "SCADA", "HMI", "Control Systems", "Robotics"],
+    "tools": ["Siemens TIA Portal", "Rockwell"],
+    "difficulty": "Hard",
+    "certifications": ["PLC Programming Certification", "SCADA Systems Certification", "Industrial Automation Certification", "Control Systems Engineering Certification"],
+    "exams": ["PLC Programming Exam", "SCADA Certification Exam", "Industrial Automation Exam"],
+    "future_trends": ["Industry 4.0 integration with IIoT", "AI-driven predictive maintenance", "Digital twins for process optimization", "Increased cybersecurity requirements"]
+  },
+
+  {
+    "career": "Electrical Design Engineer",
+    "branch": ["EEE"],
+    "interests": ["Electrical Systems", "Power"],
+    "required_skills": ["Power Systems", "Electrical Machines", "Control Systems"],
+    "tools": ["ETAP", "MATLAB"],
+    "difficulty": "Medium",
+    "certifications": ["Professional Engineer (PE) License", "Certified Electrical Engineer", "IEEE Senior Member", "NABCEP Certification"],
+    "exams": ["PE Electrical Exam", "IEEE Certification Exams", "NABCEP Exam"],
+    "future_trends": ["Smart grid integration becoming standard", "Renewable energy system design growth", "Digital twin technology adoption", "Increased focus on energy efficiency standards"]
+  },
+  {
+    "career": "Power Systems Engineer",
+    "branch": ["EEE"],
+    "interests": ["Energy", "Power"],
+    "required_skills": ["Power Electronics", "Smart Grid", "Electrical Machines"],
+    "tools": ["ETAP", "SCADA"],
+    "difficulty": "Medium",
+    "certifications": ["Professional Engineer (PE) License", "IEEE Member", "Power System Analysis Certificate", "NETA Certification", "ABB Certified Power Systems Professional"],
+    "exams": ["PE Electrical Power Exam", "IEEE Power Engineering Certification", "NETA Level III Exam"],
+    "future_trends": ["Smart grid integration becoming standard", "Renewable energy integration challenges", "Microgrid development growth", "High-voltage DC transmission expansion", "AI-driven grid optimization"]
+  },
+  {
+    "career": "Renewable Energy Engineer",
+    "branch": ["EEE", "Mechanical"],
+    "interests": ["Renewable Energy", "Sustainability"],
+    "required_skills": ["Solar Technology", "Wind Energy", "Power Systems", "Energy Storage"],
+    "tools": ["MATLAB", "PVsyst", "ETAP"],
+    "difficulty": "Hard",
+    "certifications": ["NABCEP Solar PV Installation Professional", "IREC Certified Solar Installer", "Wind Energy Engineer Certification", "LEED Green Associate", "Certified Energy Manager (CEM)"],
+    "exams": ["NABCEP PV Installation Professional Exam", "IREC ISPQ Certification", "Wind Energy Certification Exam", "CEM Exam"],
+    "future_trends": ["Solar + storage systems becoming standard", "Offshore wind farm expansion", "Green hydrogen integration", "AI-optimized renewable grid management", "Building-integrated photovoltaics growth"]
+  },
+
+  {
+    "career": "Mechanical Design Engineer",
+    "branch": ["Mechanical"],
+    "interests": ["Design", "Mechanics"],
+    "required_skills": ["CAD", "Solid Mechanics", "Material Science"],
+    "tools": ["SolidWorks", "AutoCAD"],
+    "difficulty": "Medium",
+    "certifications": ["Certified SolidWorks Professional (CSWP)", "AutoCAD Certified Professional", "GD&T Certification", "ASME Certified Engineer", "Certified Manufacturing Engineer"],
+    "exams": ["CSWP Exam", "AutoCAD Professional Exam", "GD&T Certification Exam", "ASME Certification"],
+    "future_trends": ["Generative design adoption in CAD", "AI-assisted design optimization", "Additive manufacturing integration", "Sustainable materials in design", "Digital twin for product design"]
+  },
+  {
+    "career": "Automotive Engineer",
+    "branch": ["Mechanical"],
+    "interests": ["Vehicles", "Engines"],
+    "required_skills": ["IC Engines", "Vehicle Dynamics", "CAD"],
+    "tools": ["CATIA", "ANSYS"],
+    "difficulty": "Medium",
+    "certifications": ["SAE Certified Engineer", "Automotive Engineering Certificate", "IATF 16949 Internal Auditor", "ASME Certified Automotive Engineer", "Electric Vehicle Certification"],
+    "exams": ["SAE Certification Exam", "IATF 16949 Auditor Exam", "EV Systems Certification"],
+    "future_trends": ["Electric vehicle dominance by 2030", "Autonomous driving integration", "Connected vehicles and V2X communication", "Sustainable materials in vehicle construction", "Subscription-based vehicle ownership models"]
+  },
+  {
+    "career": "Robotics Engineer",
+    "branch": ["Mechanical", "ECE"],
+    "interests": ["Robotics", "Automation"],
+    "required_skills": ["Robotics", "Control Systems", "Programming", "Sensors"],
+    "tools": ["ROS", "MATLAB"],
+    "difficulty": "Hard",
+    "certifications": ["ROS Certified Developer", "Robotics Certification", "Automation Professional", "IEEE Robotics Certificate", "ABB Robot Certification"],
+    "exams": ["ROS Certification Exam", "Robotics Engineering Exam", "ABB Robot Programming Exam"],
+    "future_trends": ["Human-robot collaboration growth", "AI-powered autonomous robots", "Swarm robotics for industrial applications", "Soft robotics for healthcare", "Robot-as-a-Service (RaaS) models"]
+  },
+  {
+    "career": "Production Engineer",
+    "branch": ["Mechanical", "Production"],
+    "interests": ["Manufacturing", "Production"],
+    "required_skills": ["Production Planning", "Quality Control", "CAD", "Lean Manufacturing"],
+    "tools": ["AutoCAD", "SAP"],
+    "difficulty": "Medium",
+    "certifications": ["Certified Production Engineer", "Lean Six Sigma Green Belt", "APICS CPIM", "ISO 9001 Internal Auditor", "Kaizen Certification"],
+    "exams": ["CPIM Exam", "Six Sigma Green Belt Exam", "Lean Manufacturing Certification"],
+    "future_trends": ["Smart manufacturing and Industry 4.0 integration", "AI-driven production optimization", "Digital twin for production lines", "Sustainable and circular manufacturing", "Additive manufacturing in production"]
+  },
+  {
+    "career": "Manufacturing Engineer",
+    "branch": ["Mechanical", "Production", "Industrial"],
+    "interests": ["Manufacturing", "Process Optimization"],
+    "required_skills": ["Manufacturing Processes", "CAD", "Quality Management", "Automation"],
+    "tools": ["SolidWorks", "Mastercam"],
+    "difficulty": "Medium",
+    "certifications": ["Certified Manufacturing Engineer", "Six Sigma Green Belt", "APICS CSCP", "ISO 9001 Lead Auditor", "Certified Automation Professional"],
+    "exams": ["ASME Certification Exam", "Six Sigma Green Belt Exam", "APICS CSCP Exam", "CAP Exam"],
+    "future_trends": ["Additive manufacturing growth", "Smart factories and Industry 5.0", "AI-driven predictive quality control", "Sustainable manufacturing practices", "Robotics and cobots in manufacturing"]
+  },
+  {
+    "career": "Aerospace Engineer",
+    "branch": ["Aerospace"],
+    "interests": ["Aerospace", "Aircraft", "Space"],
+    "required_skills": ["Aerodynamics", "Propulsion", "Structures", "Flight Mechanics"],
+    "tools": ["ANSYS", "CATIA", "MATLAB"],
+    "difficulty": "Hard",
+    "certifications": ["AIAA Certified Aerospace Engineer", "FAA Airframe & Powerplant License", "ASME Aerospace Certificate", "Space Systems Engineering Certificate", "Aviation Safety Certificate"],
+    "exams": ["AIAA Certification Exam", "FAA A&P Written Exam", "Space Systems Engineering Exam", "Aviation Safety Certificate Exam"],
+    "future_trends": ["Electric and hydrogen-powered aircraft development", "Supersonic and hypersonic flight resurgence", "Space tourism and commercial spaceflight", "Advanced composite materials in aircraft", "AI-driven autonomous aircraft systems"]
+  },
+  {
+    "career": "Aeronautical Engineer",
+    "branch": ["Aerospace"],
+    "interests": ["Aircraft", "Aerodynamics"],
+    "required_skills": ["Aerodynamics", "Aircraft Structures", "Propulsion", "Flight Dynamics"],
+    "tools": ["CATIA", "ANSYS", "XFOIL"],
+    "difficulty": "Hard",
+    "certifications": ["AIAA Aeronautical Engineering Certificate", "FAA Airframe License", "EASA Part 66 Aircraft Maintenance License", "Aircraft Design Certification", "Aerodynamics Certification"],
+    "exams": ["AIAA Aeronautical Exam", "FAA Airframe Written Exam", "EASA Part 66 Module Exams", "Aircraft Design Certification Exam"],
+    "future_trends": ["Electric propulsion in aviation", "Advanced aerodynamic shapes for efficiency", "Use of composite materials in aircraft structures", "AI in aircraft design and optimization", "Sustainable aviation fuels and operations"]
+  },
+  {
+    "career": "Astronautical Engineer",
+    "branch": ["Aerospace"],
+    "interests": ["Space", "Spacecraft"],
+    "required_skills": ["Orbital Mechanics", "Propulsion", "Thermal Control", "Space Systems"],
+    "tools": ["MATLAB", "STK"],
+    "difficulty": "Hard",
+    "certifications": ["AIAA Space Systems Engineering Certificate", "NASA Systems Engineering Certification", "INCOSE Certified Systems Engineering Professional (CSEP)", "Space Systems Engineering Certificate", "Propulsion Systems Certification"],
+    "exams": ["AIAA Space Systems Exam", "INCOSE CSEP Exam", "NASA Systems Engineering Assessment", "Propulsion Systems Certification Exam"],
+    "future_trends": ["Commercial space stations and space habitats", "In-space manufacturing and resource utilization (ISRU)", "Advanced propulsion systems for deep space exploration", "Space debris removal and sustainability", "AI for autonomous spacecraft operations"]
+  },
+
+  {
+    "career": "Civil Structural Engineer",
+    "branch": ["Civil"],
+    "interests": ["Construction", "Structures"],
+    "required_skills": ["Structural Analysis", "RCC", "Steel Design"],
+    "tools": ["STAAD Pro", "ETABS"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Construction Project Manager",
+    "branch": ["Civil"],
+    "interests": ["Management", "Construction"],
+    "required_skills": ["Project Planning", "Estimation", "Contracts"],
+    "tools": ["MS Project", "Primavera"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Environmental Engineer",
+    "branch": ["Civil"],
+    "interests": ["Environment", "Sustainability"],
+    "required_skills": ["Environmental Impact Analysis", "Water Treatment"],
+    "tools": ["GIS", "AutoCAD"],
+    "difficulty": "Easy"
+  },
+  {
+    "career": "Site Engineer",
+    "branch": ["Civil"],
+    "interests": ["Construction", "Site Management"],
+    "required_skills": ["Site Surveying", "Project Execution", "Quality Control", "AutoCAD"],
+    "tools": ["AutoCAD", "Total Station", "MS Project"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Geotechnical Engineer",
+    "branch": ["Civil"],
+    "interests": ["Geotechnics", "Soil Mechanics"],
+    "required_skills": ["Soil Mechanics", "Foundation Design", "Rock Mechanics"],
+    "tools": ["PLAXIS", "GEO5"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Water Resource Engineer",
+    "branch": ["Civil", "Environmental"],
+    "interests": ["Water", "Hydrology"],
+    "required_skills": ["Hydrology", "Water Management", "Hydraulics"],
+    "tools": ["HEC-RAS", "SWMM", "AutoCAD"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Transportation Engineer",
+    "branch": ["Civil"],
+    "interests": ["Transportation", "Traffic"],
+    "required_skills": ["Traffic Engineering", "Transportation Planning", "Highway Design"],
+    "tools": ["VISSIM", "SUMO", "AutoCAD"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Chemical Process Engineer",
+    "branch": ["Chemical"],
+    "interests": ["Chemical Processes", "Reactions"],
+    "required_skills": ["Chemical Kinetics", "Process Design", "Thermodynamics"],
+    "tools": ["Aspen Plus", "MATLAB"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Petroleum Engineer",
+    "branch": ["Petroleum", "Chemical"],
+    "interests": ["Oil & Gas", "Extraction"],
+    "required_skills": ["Reservoir Engineering", "Drilling", "Production"],
+    "tools": ["Petrel", "MATLAB"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Refinery Engineer",
+    "branch": ["Petroleum", "Chemical"],
+    "interests": ["Refining", "Oil Processing"],
+    "required_skills": ["Refinery Operations", "Process Optimization", "Safety"],
+    "tools": ["Aspen HYSYS", "PRO/II"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Biomedical Engineer",
+    "branch": ["Biomedical"],
+    "interests": ["Healthcare", "Medical Devices"],
+    "required_skills": ["Biology", "Circuit Design", "Signal Processing", "Medical Imaging"],
+    "tools": ["MATLAB", "SolidWorks", "LabVIEW"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Clinical Engineer",
+    "branch": ["Biomedical"],
+    "interests": ["Healthcare", "Clinical Systems"],
+    "required_skills": ["Medical Equipment", "Healthcare Technology", "Safety Standards"],
+    "tools": ["BioMED", "Quality Standards"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Rehabilitation Engineer",
+    "branch": ["Biomedical"],
+    "interests": ["Rehabilitation", "Assistive Technology"],
+    "required_skills": ["Prosthetics", "Biomechanics", "Human Factors"],
+    "tools": ["SolidWorks", "MATLAB"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Agricultural Engineer",
+    "branch": ["Agricultural"],
+    "interests": ["Agriculture", "Farm Machinery"],
+    "required_skills": ["Farm Machinery", "Irrigation", "Soil Science"],
+    "tools": ["AutoCAD", "GIS"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Food Engineer",
+    "branch": ["Agricultural", "Chemical"],
+    "interests": ["Food Processing", "Quality"],
+    "required_skills": ["Food Technology", "Process Engineering", "Quality Control"],
+    "tools": ["Aspen Plus", "MATLAB"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Marine Engineer",
+    "branch": ["Marine"],
+    "interests": ["Marine Systems", "Ships"],
+    "required_skills": ["Marine Propulsion", "Naval Architecture", "Marine Systems"],
+    "tools": ["AutoCAD", "MATLAB"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Naval Architect",
+    "branch": ["Marine"],
+    "interests": ["Ship Design", "Marine Structures"],
+    "required_skills": ["Ship Design", "Hydrodynamics", "Stability"],
+    "tools": ["Maxsurf", "NAPA", "Rhino"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Ocean Engineer",
+    "branch": ["Marine"],
+    "interests": ["Ocean Technology", "Underwater Systems"],
+    "required_skills": ["Oceanography", "Underwater Vehicles", "Marine Systems"],
+    "tools": ["MATLAB", "AutoCAD"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Metallurgical Engineer",
+    "branch": ["Metallurgical"],
+    "interests": ["Metals", "Materials"],
+    "required_skills": ["Metallurgy", "Material Testing", "Heat Treatment"],
+    "tools": ["MATLAB", "Thermo-Calc"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Materials Engineer",
+    "branch": ["Material Science", "Metallurgical"],
+    "interests": ["Materials", "Testing"],
+    "required_skills": ["Material Characterization", "Polymers", "Composites"],
+    "tools": ["SEM", "XRD", "MATLAB"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Nanotechnology Engineer",
+    "branch": ["Material Science", "Chemical"],
+    "interests": ["Nanomaterials", "NanoDevices"],
+    "required_skills": ["Nanomaterials", "Characterization", "Quantum Mechanics"],
+    "tools": ["AFM", "SEM", "MATLAB"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Mining Engineer",
+    "branch": ["Mining"],
+    "interests": ["Mining", "Extraction"],
+    "required_skills": ["Mining Methods", "Geology", "Explosives"],
+    "tools": ["Surpac", "MineSight"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Geologist",
+    "branch": ["Mining", "Civil"],
+    "interests": ["Geology", "Earth Science"],
+    "required_skills": ["Rock Mechanics", "Mineralogy", "Field Mapping"],
+    "tools": ["GIS", "RockWare"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Textile Engineer",
+    "branch": ["Textile"],
+    "interests": ["Textiles", "Fabrics"],
+    "required_skills": ["Fiber Technology", "Weaving", "Dyeing"],
+    "tools": ["CAD", "ERP Systems"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Fashion Technologist",
+    "branch": ["Textile"],
+    "interests": ["Fashion", "Technology"],
+    "required_skills": ["Fabric Technology", "Garment Production", "Quality Control"],
+    "tools": ["CLO3D", "Gerber"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Industrial Engineer",
+    "branch": ["Industrial"],
+    "interests": ["Optimization", "Processes"],
+    "required_skills": ["Operations Research", "Quality Control", "Ergonomics"],
+    "tools": ["Arena", "Minitab"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Supply Chain Engineer",
+    "branch": ["Industrial"],
+    "interests": ["Logistics", "Supply Chain"],
+    "required_skills": ["Logistics", "Inventory Management", "Optimization"],
+    "tools": ["SAP", "Oracle SCM"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Nuclear Engineer",
+    "branch": ["Nuclear"],
+    "interests": ["Nuclear Energy", "Reactors"],
+    "required_skills": ["Nuclear Physics", "Reactor Design", "Radiation Protection"],
+    "tools": ["MCNP", "SCALE", "MATLAB"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Radiation Protection Engineer",
+    "branch": ["Nuclear"],
+    "interests": ["Radiation", "Safety"],
+    "required_skills": ["Radiation Safety", "Dosimetry", "Regulations"],
+    "tools": ["MCNP", "Fluka", "Survey Meters"],
+    "difficulty": "Hard"
+  },
+{
+    "career": "Quantum Computing Engineer",
+    "branch": ["CSE", "IT", "Material Science"],
+    "interests": ["Quantum Computing", "Physics"],
+    "required_skills": ["Quantum Mechanics", "Quantum Algorithms", "Python", "Linear Algebra"],
+    "tools": ["Qiskit", "Cirq", "IBM Quantum"],
+    "difficulty": "Very Hard"
+  },
+
+  {
+    "career": "Instrumentation Engineer",
+    "branch": ["Instrumentation", "ECE", "Chemical"],
+    "interests": ["Sensors", "Control Systems", "Process Automation"],
+    "required_skills": ["Sensors", "Transducers", "PLC", "SCADA", "Process Control"],
+    "tools": ["DCS", "LabVIEW", "MATLAB"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Control Systems Engineer",
+    "branch": ["Instrumentation", "ECE", "Electrical"],
+    "interests": ["Control Theory", "Automation", "Systems"],
+    "required_skills": ["Control Theory", "PID", "PLC", "DCS", "MATLAB", "Simulink"],
+    "tools": ["MATLAB", "Simulink", "LabVIEW", "PLC Programming"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Process Control Engineer",
+    "branch": ["Instrumentation", "Chemical", "Petroleum"],
+    "interests": ["Process Optimization", "Control Systems", "Automation"],
+    "required_skills": ["Process Dynamics", "Control Systems", "Optimization", "DCS"],
+    "tools": ["Aspen Plus", "MATLAB", "DCS Systems"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Telecommunication Engineer",
+    "branch": ["Telecommunication", "ECE", "CSE"],
+    "interests": ["Communication Networks", "Wireless", "Signal Processing"],
+    "required_skills": ["Signal Processing", "Networking", "5G", "Fiber Optics", "RF Systems"],
+    "tools": ["MATLAB", "NS-3", "RF Simulation Tools"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Network Engineer",
+    "branch": ["Telecommunication", "CSE", "IT"],
+    "interests": ["Networks", "Infrastructure", "Security"],
+    "required_skills": ["Routing", "Switching", "Firewalls", "VPN", "SDN"],
+    "tools": ["Cisco IOS", "Wireshark", "GNS3"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Wireless Communication Engineer",
+    "branch": ["Telecommunication", "ECE"],
+    "interests": ["Wireless", "Mobile Networks", "5G/6G"],
+    "required_skills": ["Wireless Technologies", "RF Design", "Antenna Theory", "Signal Processing"],
+    "tools": ["MATLAB", "CST Studio", "RF Simulation"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Optical Fiber Engineer",
+    "branch": ["Telecommunication", "ECE"],
+    "interests": ["Fiber Optics", "Optical Networks", "Communication"],
+    "required_skills": ["Fiber Optics", "Optical Components", "Network Design", "Photonics"],
+    "tools": ["Optical Design Software", "OTDR", "Fiber Testing Tools"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Mechatronics Engineer",
+    "branch": ["Mechatronics", "Mechanical", "ECE"],
+    "interests": ["Robotics", "Automation", "Integration"],
+    "required_skills": ["Robotics", "Control Systems", "Programming", "Mechanical Design", "Electronics"],
+    "tools": ["SolidWorks", "MATLAB", "PLC", "Arduino"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Automation Engineer",
+    "branch": ["Mechatronics", "Instrumentation", "Mechanical"],
+    "interests": ["Automation", "Robotics", "Control Systems"],
+    "required_skills": ["PLC Programming", "Robotics", "HMI", "SCADA", "Industrial Networks"],
+    "tools": ["Siemens TIA Portal", "Rockwell", "ABB Robot Studio"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Robotics Design Engineer",
+    "branch": ["Mechatronics", "Mechanical", "ECE"],
+    "interests": ["Robot Design", "Kinematics", "Dynamics"],
+    "required_skills": ["Robot Kinematics", "CAD", "Control Systems", "Programming"],
+    "tools": ["SolidWorks", "MATLAB", "ROS", "Gazebo"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Biotechnology Engineer",
+    "branch": ["Biotechnology", "Biomedical", "Chemical"],
+    "interests": ["Biology", "Bio-processing", "Genetic Engineering"],
+    "required_skills": ["Biology", "Fermentation", "Biochemistry", "Downstream Processing"],
+    "tools": ["Bioprocess Software", "MATLAB", "Lab Equipment"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Bioinformatics Engineer",
+    "branch": ["Biotechnology", "CSE", "Biomedical"],
+    "interests": ["Genomics", "Data Analysis", "Computational Biology"],
+    "required_skills": ["Python", "R", "Machine Learning", "Bioinformatics Tools", "Genomics"],
+    "tools": ["BLAST", "Bioconductor", "Python Libraries"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Bio-process Engineer",
+    "branch": ["Biotechnology", "Chemical"],
+    "interests": ["Bioprocessing", "Fermentation", "Scale-up"],
+    "required_skills": ["Bioprocess Design", "Fermentation Technology", "Downstream Processing"],
+    "tools": ["Aspen Plus", "MATLAB", "Bioprocess Simulators"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Genetic Engineer",
+    "branch": ["Biotechnology", "Biomedical"],
+    "interests": ["Genetics", "CRISPR", "Gene Therapy"],
+    "required_skills": ["Molecular Biology", "CRISPR", "Gene Editing", "Cell Culture"],
+    "tools": ["PCR", "Gel Electrophoresis", "Sequencing Equipment"],
+    "difficulty": "Very Hard"
+  },
+
+  {
+    "career": "Polymer Engineer",
+    "branch": ["Polymer", "Chemical", "Material Science"],
+    "interests": ["Polymers", "Plastics", "Rubber Materials"],
+    "required_skills": ["Polymer Chemistry", "Processing", "Rheology", "Material Testing"],
+    "tools": ["Rheometer", "MFI Tester", "Polymer Processing Equipment"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Plastic Technologist",
+    "branch": ["Polymer", "Chemical"],
+    "interests": ["Plastics", "Processing", "Materials"],
+    "required_skills": ["Plastic Processing", "Molding", "Extrusion", "Material Selection"],
+    "tools": ["Injection Molding Machine", "Extruders", "Testing Equipment"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Rubber Technologist",
+    "branch": ["Polymer", "Chemical"],
+    "interests": ["Rubber", "Elastomers", "Tire Technology"],
+    "required_skills": ["Rubber Compounding", "Vulcanization", "Testing"],
+    "tools": ["Mooney Viscometer", "RPA", "Testing Equipment"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Coatings Engineer",
+    "branch": ["Polymer", "Chemical"],
+    "interests": ["Paints", "Coatings", "Surface Technology"],
+    "required_skills": ["Formulation", "Surface Chemistry", "Rheology", "Application"],
+    "tools": ["ASTM Testing", "Viscometers", "Application Equipment"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Ceramic Engineer",
+    "branch": ["Ceramic", "Material Science", "Chemical"],
+    "interests": ["Ceramics", "Glass", "Refractories"],
+    "required_skills": ["Ceramic Processing", "Raw Materials", "Sintering", "Glazing"],
+    "tools": ["Ball Mill", "Sintering Furnace", "XRD"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Glass Technologist",
+    "branch": ["Ceramic", "Material Science"],
+    "interests": ["Glass", "Manufacturing", "Optical Materials"],
+    "required_skills": ["Glass Forming", "Optical Properties", "Thermal Treatment"],
+    "tools": ["Glass Furnace", "Annealing Lehrs", "Optical Testing"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Refractory Engineer",
+    "branch": ["Ceramic", "Metallurgical"],
+    "interests": ["Refractories", "High Temperature", "Industrial Furnaces"],
+    "required_skills": ["Refractory Materials", "High Temperature Applications", "Corrosion"],
+    "tools": ["Thermal Analysis", "Testing Equipment"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Energy Engineer",
+    "branch": ["Energy", "Electrical", "Mechanical"],
+    "interests": ["Energy Systems", "Power Generation", "Sustainability"],
+    "required_skills": ["Energy Analysis", "Renewable Systems", "Energy Storage", "Efficiency"],
+    "tools": ["HOMER", "RETScreen", "Energy Simulation Software"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Energy Storage Engineer",
+    "branch": ["Energy", "Electrical", "Chemical"],
+    "interests": ["Batteries", "Energy Storage", "EV Technology"],
+    "required_skills": ["Battery Technology", "Electrochemistry", "Thermal Management"],
+    "tools": ["Battery Test Systems", "Gamry", "Thermal Cameras"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Hydrogen Engineer",
+    "branch": ["Energy", "Chemical", "Mechanical"],
+    "interests": ["Hydrogen", "Fuel Cells", "Green Energy"],
+    "required_skills": ["Electrolysis", "Fuel Cells", "Hydrogen Storage", "Safety"],
+    "tools": ["Fuel Cell Test Stations", "Electrolyzers", "Hydrogen Sensors"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Power Plant Engineer",
+    "branch": ["Energy", "Mechanical", "Electrical"],
+    "interests": ["Power Generation", "Thermodynamics", "Operations"],
+    "required_skills": ["Thermodynamics", "Power Cycles", "Operations", "Maintenance"],
+    "tools": ["Thermodynamic Software", "SCADA", "Plant Systems"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Fire Protection Engineer",
+    "branch": ["Fire Protection", "Mechanical", "Civil"],
+    "interests": ["Fire Safety", "Prevention", "Protection Systems"],
+    "required_skills": ["Fire Dynamics", "Sprinkler Systems", "Detection", "Egress Analysis"],
+    "tools": ["CFD Software", "Fire Modelling", "NFPA Standards"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Fire Safety Engineer",
+    "branch": ["Fire Protection", "Safety"],
+    "interests": ["Fire Safety", "Risk Assessment", "Emergency Response"],
+    "required_skills": ["Risk Assessment", "Fire Codes", "Evacuation Modelling", "Inspection"],
+    "tools": ["Fire Modelling Software", "Inspection Tools"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Acoustic Engineer",
+    "branch": ["Acoustic", "Mechanical", "Civil"],
+    "interests": ["Sound", "Noise Control", "Audio Systems"],
+    "required_skills": ["Acoustics", "Noise Control", "Audio Engineering", "Vibration Analysis"],
+    "tools": ["Sound Level Meters", "B&K Equipment", "MATLAB", "ANSYS"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Noise Control Engineer",
+    "branch": ["Acoustic", "Mechanical", "Civil"],
+    "interests": ["Noise", "Vibration", "Environmental Acoustics"],
+    "required_skills": ["Noise Modelling", "Vibration Analysis", "Barrier Design", "Materials"],
+    "tools": ["SoundPLAN", "CadnaA", "B&K Equipment"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Audio Engineer",
+    "branch": ["Acoustic", "ECE"],
+    "interests": ["Audio", "Sound Systems", "Recording"],
+    "required_skills": ["Audio Signal Processing", "Mixing", "Sound Reinforcement", "Acoustics"],
+    "tools": ["Pro Tools", "DAW Software", "Audio Analyzers"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Geomatics Engineer",
+    "branch": ["Geomatics", "Civil"],
+    "interests": ["Surveying", "GIS", "Remote Sensing"],
+    "required_skills": ["Surveying", "GIS", "Remote Sensing", "Cartography"],
+    "tools": ["Total Station", "GPS", "ArcGIS", "QGIS"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Survey Engineer",
+    "branch": ["Geomatics", "Civil"],
+    "interests": ["Surveying", "Mapping", "Land Development"],
+    "required_skills": ["Land Surveying", "Boundary", "Topographic Surveying", "Legal"],
+    "tools": ["Total Station", "GPS", "Level"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "GIS Analyst",
+    "branch": ["Geomatics", "Civil", "Environmental"],
+    "interests": ["GIS", "Spatial Analysis", "Mapping"],
+    "required_skills": ["GIS Software", "Spatial Analysis", "Data Management", "Remote Sensing"],
+    "tools": ["ArcGIS", "QGIS", "ENVI", "ERDAS"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Remote Sensing Engineer",
+    "branch": ["Geomatics", "Civil", "Environmental"],
+    "interests": ["Remote Sensing", "Satellite Imagery", "Aerial Photography"],
+    "required_skills": ["Image Processing", "Spectral Analysis", "Photogrammetry", "LiDAR"],
+    "tools": ["ENVI", "ERDAS", "PCI Geomatica", "LiDAR Software"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Architectural Engineer",
+    "branch": ["Architectural", "Civil", "Mechanical"],
+    "interests": ["Building Design", "Structural Systems", "Building Services"],
+    "required_skills": ["Structural Analysis", "HVAC", "Electrical Systems", "Building Codes"],
+    "tools": ["AutoCAD", "Revit", "ETABS", "HVAC Software"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Building Services Engineer",
+    "branch": ["Architectural", "Mechanical", "Electrical"],
+    "interests": ["HVAC", "Electrical Systems", "Plumbing", "Fire Protection"],
+    "required_skills": ["HVAC Design", "Electrical Design", "Plumbing", "Building Codes"],
+    "tools": ["Revit MEP", "HAP", "ETAP"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Facade Engineer",
+    "branch": ["Architectural", "Civil"],
+    "interests": ["Building Envelope", "Cladding", "Curtain Walls"],
+    "required_skills": ["Structural Analysis", "Materials", "Thermal Performance", "Wind Engineering"],
+    "tools": ["FEA Software", "THERM", "AutoCAD", "Revit"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Engineering Manager",
+    "branch": ["Engineering Management", "All Branches"],
+    "interests": ["Leadership", "Project Management", "Technical Strategy"],
+    "required_skills": ["Project Management", "Leadership", "Technical Planning", "Communication"],
+    "tools": ["MS Project", "Jira", "Primavera"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Technical Project Manager",
+    "branch": ["Engineering Management", "All Branches"],
+    "interests": ["Project Planning", "Team Leadership", "Delivery"],
+    "required_skills": ["Project Management", "Agile", "Stakeholder Management", "Technical Knowledge"],
+    "tools": ["Jira", "MS Project", "Confluence"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Systems Engineer",
+    "branch": ["Engineering Management", "CSE", "ECE"],
+    "interests": ["Systems Architecture", "Integration", "Requirements"],
+    "required_skills": ["Systems Thinking", "Requirements Engineering", "Integration", "Testing"],
+    "tools": ["DOORS", "SysML Tools", "Enterprise Architect"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Safety Engineer",
+    "branch": ["Safety", "All Branches"],
+    "interests": ["Risk Assessment", "Safety Protocols", "Compliance"],
+    "required_skills": ["Risk Assessment", "Hazard Analysis", "Safety Standards", "Audit"],
+    "tools": ["PHA Software", "BowTie", "Audit Tools"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "HSE Engineer",
+    "branch": ["Safety", "Chemical", "Petroleum"],
+    "interests": ["Health", "Safety", "Environment"],
+    "required_skills": ["HSE Management", "Risk Assessment", "Incident Investigation", "Compliance"],
+    "tools": ["HSE Management Systems", "Incident Software", "Audit Checklists"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Reliability Engineer",
+    "branch": ["Safety", "Mechanical", "Industrial"],
+    "interests": ["Reliability", "Maintenance", "Asset Management"],
+    "required_skills": ["Reliability Analysis", "RCM", "FMECA", "Statistics"],
+    "tools": ["Reliability Software", "Minitab", "RBM Software"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Structural Engineer",
+    "branch": ["Civil", "Architectural"],
+    "interests": ["Structures", "Design", "Analysis"],
+    "required_skills": ["Structural Analysis", "Steel Design", "RCC Design", "Foundation Design"],
+    "tools": ["STAAD Pro", "ETABS", "SAP2000", "Safe"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Bridge Engineer",
+    "branch": ["Civil"],
+    "interests": ["Bridges", "Infrastructure", "Structural Design"],
+    "required_skills": ["Structural Analysis", "Bridge Design", "Load Rating", "Construction"],
+    "tools": ["STAAD Pro", "CSI Bridge", "LEAP Bridge"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Tall Building Engineer",
+    "branch": ["Civil", "Architectural"],
+    "interests": ["High-Rise Structures", "Wind Engineering", "Seismic Design"],
+    "required_skills": ["Advanced Structural Analysis", "Wind Engineering", "Seismic Design"],
+    "tools": ["ETABS", "SAP2000", "Wind Tunnel Analysis"],
+    "difficulty": "Very Hard"
+  },
+
+  {
+    "career": "Automotive Design Engineer",
+    "branch": ["Mechanical", "Automotive"],
+    "interests": ["Vehicle Design", "Styling", "CAD"],
+    "required_skills": ["CAD", "Vehicle Dynamics", "Ergonomics", "Design Thinking"],
+    "tools": ["CATIA", "UG NX", "ANSYS"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Automotive Powertrain Engineer",
+    "branch": ["Mechanical", "Automotive"],
+    "interests": ["Engines", "Transmissions", "Propulsion Systems"],
+    "required_skills": ["IC Engines", "Transmission Design", "Electric Powertrains", "Simulation"],
+    "tools": ["AVL", "GT-Power", "MATLAB", "Simulink"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "EV Systems Engineer",
+    "branch": ["Automotive", "Electrical", "Mechanical"],
+    "interests": ["Electric Vehicles", "Battery Systems", "E-Mobility"],
+    "required_skills": ["Battery Systems", "Electric Motors", "Power Electronics", "HV Systems"],
+    "tools": ["MATLAB", "Simulink", "Battery Simulation", "HV Testing"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Autonomous Vehicle Engineer",
+    "branch": ["Automotive", "CSE", "ECE"],
+    "interests": ["Self-Driving", "AI", "Sensor Fusion"],
+    "required_skills": ["Sensor Fusion", "Computer Vision", "Path Planning", "Machine Learning"],
+    "tools": ["ROS", "Python", "CARLA", "TensorFlow"],
+    "difficulty": "Very Hard"
+  },
+
+  {
+    "career": "Hydraulic Engineer",
+    "branch": ["Civil", "Mechanical"],
+    "interests": ["Hydraulics", "Water Systems", "Pumps"],
+    "required_skills": ["Hydraulic Systems", "Pump Design", "Water Distribution", "Modeling"],
+    "tools": ["HEC-RAS", "EPANET", "Hydraulic Software"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Piping Engineer",
+    "branch": ["Mechanical", "Chemical", "Petroleum"],
+    "interests": ["Piping Systems", "Process Plants", "Design"],
+    "required_skills": ["Piping Design", "Stress Analysis", "Materials", "Codes"],
+    "tools": ["CAESAR II", "AutoPIPE", "PDMS"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Pressure Vessel Engineer",
+    "branch": ["Mechanical", "Chemical"],
+    "interests": ["Pressure Vessels", "Boilers", "Design"],
+    "required_skills": ["ASME Code", "Finite Element Analysis", "Materials", "Design"],
+    "tools": ["PV Elite", "ANSYS", "Compress"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Telecom Network Planner",
+    "branch": ["Telecommunication"],
+    "interests": ["Network Planning", "Optimization", "5G/6G"],
+    "required_skills": ["Network Design", "RF Planning", "Capacity Planning", "Optimization"],
+    "tools": ["Atoll", "Planet", "ASSET"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Satellite Communication Engineer",
+    "branch": ["Telecommunication", "Aerospace"],
+    "interests": ["Satellites", "Space Communication", "Link Budget"],
+    "required_skills": ["Satellite Systems", "Link Budget", "Antennas", "Orbital Mechanics"],
+    "tools": ["STK", "Satellite Tool Kit", "MATLAB"],
+    "difficulty": "Very Hard"
+  },
+
+  {
+    "career": "Biomaterials Engineer",
+    "branch": ["Biomedical", "Material Science"],
+    "interests": ["Biomaterials", "Implants", "Tissue Engineering"],
+    "required_skills": ["Biomaterials", "Biocompatibility", "Tissue Engineering", "Characterization"],
+    "tools": ["SEM", "Cell Culture", "Mechanical Testing"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Medical Device Engineer",
+    "branch": ["Biomedical", "Mechanical"],
+    "interests": ["Medical Devices", "Design", "Healthcare"],
+    "required_skills": ["Design Control", "Biomechanics", "Regulatory Affairs", "Testing"],
+    "tools": ["SolidWorks", "ANSYS", "FDA Guidelines"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Pharmaceutical Engineer",
+    "branch": ["Chemical", "Biotechnology"],
+    "interests": ["Pharmaceuticals", "Drug Manufacturing", "Process"],
+    "required_skills": ["Pharmaceutical Technology", "GMP", "Process Validation", "Cleanrooms"],
+    "tools": ["ASPEN", "Process Simulation", "Validation Software"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Drone Engineer",
+    "branch": ["Aerospace", "Mechanical", "CSE"],
+    "interests": ["Drones", "UAV", "Aerodynamics"],
+    "required_skills": ["Aerodynamics", "Control Systems", "Propulsion", "Embedded Systems"],
+    "tools": ["MATLAB", "CFD Software", "Pixhawk", "ROS"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "UAM Engineer",
+    "branch": ["Aerospace", "Automotive"],
+    "interests": ["Urban Air Mobility", "eVTOL", "Advanced Air Mobility"],
+    "required_skills": ["VTOL Design", "Flight Control", "Noise Reduction", "Certification"],
+    "tools": ["CFD", "Flight Simulation", "MATLAB"],
+    "difficulty": "Very Hard"
+  },
+
+  {
+    "career": "Cryogenic Engineer",
+    "branch": ["Mechanical", "Aerospace", "Energy"],
+    "interests": ["Cryogenics", "LNG", "Space Systems"],
+    "required_skills": ["Cryogenic Systems", "Thermodynamics", "Materials at Low Temp", "Insulation"],
+    "tools": ["Cryogenic Equipment", "Thermal Analysis", "Simulation"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Thermal Engineer",
+    "branch": ["Mechanical", "Aerospace", "Chemical"],
+    "interests": ["Thermal Systems", "Heat Transfer", "Cooling"],
+    "required_skills": ["Heat Transfer", "Thermal Analysis", "CFD", "Thermal Design"],
+    "tools": ["ANSYS Fluent", "MATLAB", "Thermal Software"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Maintenance Engineer",
+    "branch": ["Industrial", "Mechanical"],
+    "interests": ["Maintenance", "Reliability", "Asset Management"],
+    "required_skills": ["Preventive Maintenance", "RCM", "CMMS", "Troubleshooting"],
+    "tools": ["SAP PM", "Maximo", "CMMS Software"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Quality Engineer",
+    "branch": ["Industrial", "All Branches"],
+    "interests": ["Quality Control", "Continuous Improvement", "Standards"],
+    "required_skills": ["Quality Management", "Six Sigma", "Statistics", "Testing"],
+    "tools": ["Minitab", "Statistical Software", "Quality Management Systems"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Test Engineer",
+    "branch": ["Industrial", "All Branches"],
+    "interests": ["Testing", "Validation", "QA"],
+    "required_skills": ["Test Planning", "Automation", "Data Analysis", "Documentation"],
+    "tools": ["LabVIEW", "TestStand", "Data Acquisition"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Geophysical Engineer",
+    "branch": ["Mining", "Petroleum"],
+    "interests": ["Geophysics", "Exploration", "Seismic"],
+    "required_skills": ["Seismic Interpretation", "Gravity", "Magnetic Surveys", "Data Processing"],
+    "tools": ["Petrel", "Kingdom", "Geosoft"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Petrophysical Engineer",
+    "branch": ["Petroleum", "Mining"],
+    "interests": ["Petrophysics", "Reservoir Characterization", "Well Logging"],
+    "required_skills": ["Well Log Analysis", "Core Analysis", "Petrophysical Modeling"],
+    "tools": ["Petrel", "GeoEast", "Interactive Petrophysics"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Waste Management Engineer",
+    "branch": ["Environmental", "Chemical", "Civil"],
+    "interests": ["Waste", "Recycling", "Sustainability"],
+    "required_skills": ["Waste Treatment", "Recycling Technology", "Environmental Regulations"],
+    "tools": ["Waste Treatment Software", "GIS", "Environmental Models"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Climate Engineer",
+    "branch": ["Environmental", "Civil"],
+    "interests": ["Climate Change", "Adaptation", "Mitigation"],
+    "required_skills": ["Climate Modeling", "Impact Assessment", "Adaptation Strategies"],
+    "tools": ["Climate Models", "GIS", "Statistical Software"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Plastic Recycling Engineer",
+    "branch": ["Polymer", "Environmental"],
+    "interests": ["Recycling", "Sustainability", "Circular Economy"],
+    "required_skills": ["Recycling Technology", "Polymer Processing", "Material Characterization"],
+    "tools": ["Recycling Equipment", "Testing Labs", "Process Design"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Smart City Engineer",
+    "branch": ["Civil", "CSE", "Telecommunication"],
+    "interests": ["Smart Cities", "IoT", "Urban Planning"],
+    "required_skills": ["IoT", "Data Analytics", "Urban Infrastructure", "Sustainability"],
+    "tools": ["IoT Platforms", "GIS", "Smart City Software"],
+    "difficulty": "Hard"
+  },
+{
+    "career": "Infrastructure Engineer",
+    "branch": ["Civil", "Architectural"],
+    "interests": ["Infrastructure", "Urban Development", "Sustainability"],
+    "required_skills": ["Infrastructure Design", "Project Management", "Sustainability"],
+    "tools": ["AutoCAD", "Civil 3D", "Project Management Software"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Railway Signal Engineer",
+    "branch": ["Railway Engineering", "ECE"],
+    "interests": ["Railway Signaling", "Safety Systems", "Communication"],
+    "required_skills": ["Signaling Systems", "Railway Safety", "Communication Protocols", "ATP", "ATC"],
+    "tools": ["Signal Design Software", "Testing Equipment", "Railway Simulators"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Track Engineer",
+    "branch": ["Railway Engineering", "Civil"],
+    "interests": ["Railway Tracks", "Track Maintenance", "Infrastructure"],
+    "required_skills": ["Track Geometry", "Ballast Design", "Rail Alignment", "Track Maintenance"],
+    "tools": ["Track Measurement Systems", "Tamping Machines", "Geometry Cars"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Rolling Stock Engineer",
+    "branch": ["Railway Engineering", "Mechanical"],
+    "interests": ["Trains", "Locomotives", "Rolling Stock Design"],
+    "required_skills": ["Locomotive Systems", "Car Body Design", "Braking Systems", "Suspension"],
+    "tools": ["CAD Software", "Simulation Tools", "Testing Equipment"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Railway Planning Engineer",
+    "branch": ["Railway Engineering", "Civil"],
+    "interests": ["Railway Networks", "Capacity Planning", "Route Design"],
+    "required_skills": ["Railway Planning", "Demand Analysis", "Timetabling", "Network Design"],
+    "tools": ["Railway Planning Software", "GIS", "Demand Modeling"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Railway Electrification Engineer",
+    "branch": ["Railway Engineering", "Electrical"],
+    "interests": ["Electrification", "OHE", "Power Supply"],
+    "required_skills": ["Overhead Equipment", "Traction Power", "Substation Design", "Catenary Systems"],
+    "tools": ["Electrical Design Software", "Power Systems Analysis", "CAD"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Pavement Design Engineer",
+    "branch": ["Highway Engineering", "Civil"],
+    "interests": ["Pavement Design", "Road Construction", "Materials"],
+    "required_skills": ["Pavement Analysis", "Materials Selection", "Design Methods", "AASHTO", "IRC Codes"],
+    "tools": ["AASHTOWare", "Midas Civil", "PAVER", "EverFE"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Highway Safety Engineer",
+    "branch": ["Highway Engineering", "Civil"],
+    "interests": ["Road Safety", "Accident Analysis", "Traffic Safety"],
+    "required_skills": ["Safety Analysis", "Crash Data Analysis", "Road Safety Audits", "Countermeasures"],
+    "tools": ["HSM", "Safety Analyst", "Crash Simulation", "iRoad"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Traffic Engineer",
+    "branch": ["Highway Engineering", "Civil"],
+    "interests": ["Traffic Flow", "Signal Design", "Transportation"],
+    "required_skills": ["Traffic Analysis", "Signal Timing", "Capacity Analysis", "Microsimulation"],
+    "tools": ["VISSIM", "Synchro", "SIDRA", "CUBE"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Bridge Design Engineer",
+    "branch": ["Highway Engineering", "Civil"],
+    "interests": ["Bridge Design", "Highway Bridges", "Structural Engineering"],
+    "required_skills": ["Bridge Analysis", "Structural Design", "Load Rating", "Seismic Design"],
+    "tools": ["CSI Bridge", "LEAP Bridge", "Midas Bridge", "SAP2000"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Highway Materials Engineer",
+    "branch": ["Highway Engineering", "Civil"],
+    "interests": ["Road Materials", "Pavement Construction", "Quality Control"],
+    "required_skills": ["Material Testing", "Mix Design", "Quality Assurance", "Specifications"],
+    "tools": ["Laboratory Equipment", "Superpave", "Marshall Mix Design"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Ordnance Engineer",
+    "branch": ["Defence Technology", "Mechanical", "Chemical"],
+    "interests": ["Weapons Systems", "Ammunition", "Defense Technology"],
+    "required_skills": ["Weapon Systems", "Explosives", "Ballistics", "Safety Protocols"],
+    "tools": ["CAD Software", "Ballistic Testing", "Simulation Tools"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Military Systems Engineer",
+    "branch": ["Defence Technology", "Aerospace", "Mechanical"],
+    "interests": ["Defense Systems", "Military Vehicles", "Tactical Systems"],
+    "required_skills": ["Systems Integration", "Weapon Systems", "Vehicle Dynamics", "Armor Design"],
+    "tools": ["CAD/CAM", "Simulation Software", "Systems Modeling"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Explosives Engineer",
+    "branch": ["Defence Technology", "Chemical", "Mining"],
+    "interests": ["Explosives", "Blasting", "Demolition"],
+    "required_skills": ["Explosive Chemistry", "Blast Design", "Safety", "Detonics"],
+    "tools": ["Blast Simulation", "Testing Equipment", "Safety Equipment"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Radar Systems Engineer",
+    "branch": ["Defence Technology", "ECE"],
+    "interests": ["Radar Technology", "Signal Processing", "Defense"],
+    "required_skills": ["Radar Design", "Signal Processing", "Antenna Theory", "Tracking Systems"],
+    "tools": ["MATLAB", "Radar Simulation", "Signal Analyzers"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Missile Systems Engineer",
+    "branch": ["Defence Technology", "Aerospace", "ECE"],
+    "interests": ["Missiles", "Guidance Systems", "Propulsion"],
+    "required_skills": ["Guidance", "Control Systems", "Aerodynamics", "Propulsion"],
+    "tools": ["Simulation Software", "MATLAB", "Aerodynamic Analysis"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Naval Systems Engineer",
+    "branch": ["Defence Technology", "Marine", "Mechanical"],
+    "interests": ["Naval Vessels", "Ship Systems", "Marine Defense"],
+    "required_skills": ["Ship Design", "Propulsion Systems", "Weapons Integration", "Damage Control"],
+    "tools": ["Naval Architecture Software", "CAD", "Simulation"],
+    "difficulty": "Very Hard"
+  },
+
+  {
+    "career": "Pre-press Engineer",
+    "branch": ["Printing Engineering", "Chemical"],
+    "interests": ["Pre-press", "Graphic Design", "Color Management"],
+    "required_skills": ["Pre-press Technology", "Color Proofing", "Plate Making", "DTP"],
+    "tools": ["Adobe Creative Suite", "Pre-press Software", "CTP Systems"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Digital Printing Engineer",
+    "branch": ["Printing Engineering", "Mechanical"],
+    "interests": ["Digital Printing", "Variable Data", "On-demand"],
+    "required_skills": ["Digital Press Operation", "Color Management", "RIP Configuration", "Maintenance"],
+    "tools": ["Digital Presses", "RIP Software", "Color Management Tools"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Print Production Engineer",
+    "branch": ["Printing Engineering", "Industrial"],
+    "interests": ["Print Production", "Workflow", "Quality Control"],
+    "required_skills": ["Production Planning", "Quality Control", "Workflow Automation", "Cost Estimation"],
+    "tools": ["MIS Software", "Workflow Systems", "Quality Equipment"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Packaging Engineer",
+    "branch": ["Printing Engineering", "Mechanical", "Chemical"],
+    "interests": ["Packaging Design", "Materials", "Sustainability"],
+    "required_skills": ["Packaging Design", "Barrier Properties", "Material Selection", "Sustainability"],
+    "tools": ["CAD Software", "Barrier Testing", "Simulation Tools"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Leather Engineer",
+    "branch": ["Leather Technology", "Chemical"],
+    "interests": ["Leather Processing", "Tannery Operations", "Quality"],
+    "required_skills": ["Tanning Processes", "Leather Chemistry", "Quality Control", "Finishing"],
+    "tools": ["Tanning Equipment", "Testing Labs", "Color Matching"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Tannery Engineer",
+    "branch": ["Leather Technology", "Chemical"],
+    "interests": ["Tannery Operations", "Waste Management", "Process Optimization"],
+    "required_skills": ["Tanning Technology", "Effluent Treatment", "Process Control", "Automation"],
+    "tools": ["Process Control Systems", "Waste Treatment", "Chemical Analysis"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Leather Product Engineer",
+    "branch": ["Leather Technology", "Industrial"],
+    "interests": ["Leather Goods", "Product Design", "Manufacturing"],
+    "required_skills": ["Leather Cutting", "Stitching", "Product Design", "Cost Engineering"],
+    "tools": ["CAD/CAM", "Cutting Machines", "Pattern Making"],
+    "difficulty": "Easy"
+  },
+
+  {
+    "career": "Paint Formulation Engineer",
+    "branch": ["Paint Technology", "Chemical"],
+    "interests": ["Paint Formulation", "Coatings", "Color Science"],
+    "required_skills": ["Formulation Chemistry", "Pigment Technology", "Rheology", "Color Matching"],
+    "tools": ["Lab Equipment", "Colorimeters", "Rheometers"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Industrial Coating Engineer",
+    "branch": ["Paint Technology", "Chemical", "Mechanical"],
+    "interests": ["Industrial Coatings", "Surface Treatment", "Protection"],
+    "required_skills": ["Coating Application", "Surface Preparation", "Quality Control", "Corrosion"],
+    "tools": ["Spray Equipment", "Thickness Gauges", "Salt Spray Testers"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Automotive Paint Engineer",
+    "branch": ["Paint Technology", "Automotive"],
+    "interests": ["Automotive Coatings", "Finishing", "Color Matching"],
+    "required_skills": ["Paint Technology", "Color Matching", "Application Techniques", "Curing"],
+    "tools": ["Paint Booths", "Colorimeters", "Curing Systems"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Architectural Coating Engineer",
+    "branch": ["Paint Technology", "Civil"],
+    "interests": ["Building Coatings", "Facade Protection", "Decorative Finishes"],
+    "required_skills": ["Coating Systems", "Weather Resistance", "Application Methods", "Specification"],
+    "tools": ["Specification Software", "Testing Equipment", "Application Tools"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Pulp Engineer",
+    "branch": ["Paper & Pulp Engineering", "Chemical"],
+    "interests": ["Pulp Production", "Bleaching", "Chemical Recovery"],
+    "required_skills": ["Pulp Processing", "Bleaching Chemistry", "Kraft Process", "Recovery"],
+    "tools": ["Pulp Mill Equipment", "Chemical Analysis", "Process Control"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Paper Machine Engineer",
+    "branch": ["Paper & Pulp Engineering", "Mechanical"],
+    "interests": ["Paper Machines", "Paper Production", "Machine Design"],
+    "required_skills": ["Paper Machine Operation", "Wet End", "Dry End", "Quality Control"],
+    "tools": ["Paper Machines", "Testing Equipment", "Process Control"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Paper Quality Engineer",
+    "branch": ["Paper & Pulp Engineering", "Chemical"],
+    "interests": ["Paper Quality", "Testing", "Specification"],
+    "required_skills": ["Paper Testing", "Quality Standards", "Process Optimization", "Specifications"],
+    "tools": ["Testing Equipment", "Laboratory Instruments", "Statistical Tools"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Pulp Mill Process Engineer",
+    "branch": ["Paper & Pulp Engineering", "Chemical"],
+    "interests": ["Pulp Processing", "Chemical Recovery", "Environmental"],
+    "required_skills": ["Pulp Processes", "Chemical Recovery", "Environmental Compliance", "Optimization"],
+    "tools": ["Process Simulation", "DCS Systems", "Analytical Instruments"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "HVAC Engineer",
+    "branch": ["Refrigeration & AC", "Mechanical"],
+    "interests": ["Heating", "Ventilation", "Air Conditioning"],
+    "required_skills": ["HVAC Design", "Load Calculations", "Duct Design", "Refrigeration"],
+    "tools": ["HAP", "Carrier HAP", "AutoCAD MEP", "Revit MEP"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Refrigeration Engineer",
+    "branch": ["Refrigeration & AC", "Mechanical"],
+    "interests": ["Refrigeration Systems", "Cold Chain", "Industrial Cooling"],
+    "required_skills": ["Refrigeration Cycles", "Compressors", "Evaporators", "Refrigerants"],
+    "tools": ["Refrigeration Software", "Thermodynamic Tables", "CAD"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Cryogenic Engineer",
+    "branch": ["Refrigeration & AC", "Mechanical", "Aerospace"],
+    "interests": ["Cryogenics", "LNG", "Ultra-low Temperature"],
+    "required_skills": ["Cryogenic Systems", "Insulation", "Liquefaction", "Safety"],
+    "tools": ["Cryogenic Equipment", "Temperature Measurement", "Simulation"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Industrial Refrigeration Engineer",
+    "branch": ["Refrigeration & AC", "Mechanical", "Industrial"],
+    "interests": ["Industrial Cooling", "Process Refrigeration", "Cold Storage"],
+    "required_skills": ["Industrial Systems", "Refrigerant Piping", "Controls", "Safety"],
+    "tools": ["Industrial Refrigeration Systems", "Control Systems", "CAD"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Cleanroom HVAC Engineer",
+    "branch": ["Refrigeration & AC", "Mechanical", "Pharmaceutical"],
+    "interests": ["Cleanrooms", "Contamination Control", "ISO Standards"],
+    "required_skills": ["Cleanroom Design", "Filtration", "Airflow", "ISO 14644"],
+    "tools": ["Cleanroom Design Software", "Particle Counters", "Airflow Meters"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Drilling Engineer",
+    "branch": ["Oil & Gas Engineering", "Petroleum", "Mechanical"],
+    "interests": ["Drilling Operations", "Well Planning", "Borehole"],
+    "required_skills": ["Drilling Planning", "Well Control", "BHA Design", "Drill String"],
+    "tools": ["Drilling Simulation", "Directional Drilling", "Well Planning Software"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Reservoir Engineer",
+    "branch": ["Oil & Gas Engineering", "Petroleum"],
+    "interests": ["Reservoir Characterization", "Production Optimization", "Enhanced Recovery"],
+    "required_skills": ["Reservoir Simulation", "Material Balance", "EOR", "Well Performance"],
+    "tools": ["Eclipse", "Petrel", "CMG", " Prosper"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Pipeline Engineer",
+    "branch": ["Oil & Gas Engineering", "Mechanical", "Civil"],
+    "interests": ["Pipeline Design", "Construction", "Operation"],
+    "required_skills": ["Pipeline Design", "Corrosion Control", "Integrity Management", "Codes"],
+    "tools": ["CAESAR II", "AutoPIPE", "Pipeline Studio", "GIS"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Production Engineer",
+    "branch": ["Oil & Gas Engineering", "Petroleum"],
+    "interests": ["Oil Production", "Gas Production", "Well Performance"],
+    "required_skills": ["Production Optimization", "Well Testing", "Artificial Lift", "Nodal Analysis"],
+    "tools": ["Prosper", "GAP", "WellTest", "Subcool"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Completions Engineer",
+    "branch": ["Oil & Gas Engineering", "Petroleum"],
+    "interests": ["Well Completions", "Perforation", "Sand Control"],
+    "required_skills": ["Completion Design", "Perforating", "Sand Control", "Workover"],
+    "tools": ["Completion Software", "Casing Design", " gravel Pack Equipment"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Subsea Engineer",
+    "branch": ["Oil & Gas Engineering", "Marine", "Mechanical"],
+    "interests": ["Subsea Systems", "Deepwater", "Underwater"],
+    "required_skills": ["Subsea Design", "Risers", "Manifolds", "Control Systems"],
+    "tools": ["Subsea Simulation", "CAD", "Finite Element Analysis"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Floating Production Engineer",
+    "branch": ["Oil & Gas Engineering", "Marine", "Petroleum"],
+    "interests": ["FPSO", "Floating Production", "Mooring"],
+    "required_skills": ["Floating Systems", "Mooring", "Production Processing", "Turret"],
+    "tools": ["Hydrodynamic Analysis", "Moorings", "Production Software"],
+    "difficulty": "Very Hard"
+  },
+
+  {
+    "career": "Sports Equipment Engineer",
+    "branch": ["Sports Engineering", "Mechanical", "Material Science"],
+    "interests": ["Sports Equipment", "Product Design", "Performance"],
+    "required_skills": ["Equipment Design", "Materials", "Testing", "Biomechanics"],
+    "tools": ["CAD", "FEA", "Testing Equipment", "Motion Capture"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Stadium Engineer",
+    "branch": ["Sports Engineering", "Civil", "Mechanical"],
+    "interests": ["Sports Facilities", "Stadium Design", "Infrastructure"],
+    "required_skills": ["Structural Design", "HVAC", "Crowd Management", "Safety"],
+    "tools": ["Structural Analysis", "CFD", "Crowd Simulation", "CAD"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Sports Surface Engineer",
+    "branch": ["Sports Engineering", "Civil", "Agricultural"],
+    "interests": ["Playing Surfaces", "Turf Management", "Ground Conditions"],
+    "required_skills": ["Surface Design", "Drainage", "Turf Science", "Maintenance"],
+    "tools": ["Drainage Systems", "Surface Testing", "Maintenance Equipment"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "运动 biomechanics Engineer",
+    "branch": ["Sports Engineering", "Biomedical", "Mechanical"],
+    "interests": ["Biomechanics", "Motion Analysis", "Performance Optimization"],
+    "required_skills": ["Biomechanics", "Motion Capture", "Force Analysis", "Data Analysis"],
+    "tools": ["Motion Capture", "Force Plates", "EMG", "MATLAB"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Sports Data Engineer",
+    "branch": ["Sports Engineering", "CSE", "Data Science"],
+    "interests": ["Sports Analytics", "Performance Data", "Statistics"],
+    "required_skills": ["Data Analysis", "Machine Learning", "Statistics", "Sports Domain"],
+    "tools": ["Python", "R", "Tableau", "Sports APIs"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Elevator Engineer",
+    "branch": ["Vertical Transportation", "Mechanical", "Electrical"],
+    "interests": ["Elevators", "Escalators", "Vertical Transport"],
+    "required_skills": ["Elevator Design", "Traction Systems", "Control Systems", "Safety Codes"],
+    "tools": ["Elevator Design Software", "Simulation", "Testing Equipment"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Escalator Engineer",
+    "branch": ["Vertical Transportation", "Mechanical"],
+    "interests": ["Escalators", "Moving Walkways", "People Movement"],
+    "required_skills": ["Escalator Design", "Safety Standards", "Maintenance", "Control Systems"],
+    "tools": ["Design Software", "Testing Equipment", "Safety Devices"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Sewage Treatment Engineer",
+    "branch": ["Water & Wastewater", "Civil", "Chemical"],
+    "interests": ["Wastewater Treatment", "Sewage", "Environmental"],
+    "required_skills": ["Treatment Processes", "Biological Treatment", "Sludge Handling", "Disinfection"],
+    "tools": ["Bioprocess Simulation", "Laboratory Analysis", "Plant Design"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Water Treatment Engineer",
+    "branch": ["Water & Wastewater", "Civil", "Chemical"],
+    "interests": ["Drinking Water", "Purification", "Treatment"],
+    "required_skills": ["Water Quality", "Filtration", "Disinfection", "Coagulation"],
+    "tools": ["Water Treatment Software", "Water Analysis", "Pilot Testing"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Desalination Engineer",
+    "branch": ["Water & Wastewater", "Chemical", "Mechanical"],
+    "interests": ["Desalination", "Reverse Osmosis", "Water Supply"],
+    "required_skills": ["RO Technology", "Pre-treatment", "Energy Recovery", "Membrane Tech"],
+    "tools": ["RO Simulation", "Membrane Testing", "Energy Analysis"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Industrial Water Engineer",
+    "branch": ["Water & Wastewater", "Chemical", "Industrial"],
+    "interests": ["Industrial Water", "Process Water", "Recycling"],
+    "required_skills": ["Water Management", "Treatment Systems", "Recycling", "Quality Control"],
+    "tools": ["Water Analysis", "Treatment Equipment", "Process Control"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Fire Sprinkler Engineer",
+    "branch": ["Fire Protection", "Mechanical", "Civil"],
+    "interests": ["Sprinkler Systems", "Fire Suppression", "Safety"],
+    "required_skills": ["Sprinkler Design", "Hydraulic Calculations", "NFPA Standards", "Installation"],
+    "tools": ["Sprinkler Design Software", "Hydraulic Calculators", "NFPA Codes"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Fire Alarm Engineer",
+    "branch": ["Fire Protection", "ECE", "Electrical"],
+    "interests": ["Fire Alarms", "Detection Systems", "Safety"],
+    "required_skills": ["Alarm Design", "Detection Technology", "Integration", "Codes"],
+    "tools": ["Fire Alarm Design Software", "Testing Equipment", "CAD"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Fire Suppression Engineer",
+    "branch": ["Fire Protection", "Mechanical", "Chemical"],
+    "interests": ["Suppression Systems", "Gas Systems", "Protection"],
+    "required_skills": ["Suppression Design", "Agent Selection", "Discharge Systems", "Safety"],
+    "tools": ["Suppression Software", "Agent Systems", "Testing"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Building Automation Engineer",
+    "branch": ["Smart Buildings", "Mechanical", "ECE"],
+    "interests": ["Building Automation", "BMS", "Control Systems"],
+    "required_skills": ["BMS Design", "Control Systems", "Integration", "Networking"],
+    "tools": ["BMS Software", "DDC Controllers", "Protocols", "CAD"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Smart Home Engineer",
+    "branch": ["Smart Buildings", "CSE", "ECE"],
+    "interests": ["Home Automation", "IoT", "Control Systems"],
+    "required_skills": ["Home Automation", "IoT Integration", "Networking", "Programming"],
+    "tools": ["Smart Home Platforms", "IoT Devices", "Programming"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Energy Management Engineer",
+    "branch": ["Smart Buildings", "Mechanical", "Electrical"],
+    "interests": ["Energy Efficiency", "Building Performance", "Optimization"],
+    "required_skills": ["Energy Analysis", "Building Simulation", "Optimization", "Audits"],
+    "tools": ["Energy Modeling", "BMS", "Auditing Equipment"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Lighting Engineer",
+    "branch": ["Smart Buildings", "Electrical", "ECE"],
+    "interests": ["Lighting Design", "Illumination", "Controls"],
+    "required_skills": ["Lighting Design", "Daylighting", "Controls", "Energy Efficiency"],
+    "tools": ["Relux", "Dialux", "AGi32", "Lighting Controls"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Solar PV Engineer",
+    "branch": ["Solar Energy", "Electrical", "Mechanical"],
+    "interests": ["Solar PV", "Photovoltaics", "Renewable Energy"],
+    "required_skills": ["PV System Design", "Inverters", "Mounting Systems", "Grid Connection"],
+    "tools": ["PVsyst", "Helioscope", "CAD", "Simulation"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Solar Thermal Engineer",
+    "branch": ["Solar Energy", "Mechanical", "Chemical"],
+    "interests": ["Solar Thermal", "CSP", "Heat Transfer"],
+    "required_skills": ["Thermal Systems", "Heat Transfer", "Storage", "Power Cycles"],
+    "tools": ["TRNSYS", "MATLAB", "Thermal Analysis", "Simulation"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Wind Turbine Engineer",
+    "branch": ["Wind Energy", "Mechanical", "Electrical"],
+    "interests": ["Wind Energy", "Turbine Design", "Aerodynamics"],
+    "required_skills": ["Turbine Design", "Aerodynamics", "Control Systems", "Grid Integration"],
+    "tools": ["Bladed", "FAST", "MATLAB", "CAD"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Wind Farm Engineer",
+    "branch": ["Wind Energy", "Civil", "Electrical"],
+    "interests": ["Wind Farm Development", "Siting", "Infrastructure"],
+    "required_skills": ["Wind Assessment", "Layout Design", "Grid Connection", "Project Management"],
+    "tools": ["WindFarm", "WAsP", "GIS", "Project Management"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Biogas Engineer",
+    "branch": ["Bioenergy", "Chemical", "Mechanical"],
+    "interests": ["Biogas", "Anaerobic Digestion", "Renewable Energy"],
+    "required_skills": ["Digestion Technology", "Gas Treatment", "Biomass", "CHP Systems"],
+    "tools": ["Biogas Simulation", "Digester Design", "Gas Analysis"],
+    "difficulty": "Medium"
+  },
+  {
+    "career": "Biofuel Engineer",
+    "branch": ["Bioenergy", "Chemical", "Mechanical"],
+    "interests": ["Biofuels", "Ethanol", "Biodiesel"],
+    "required_skills": ["Fuel Production", "Feedstock Processing", "Refining", "Quality Control"],
+    "tools": ["Process Simulation", "Laboratory Equipment", "Pilot Plants"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Biomass Engineer",
+    "branch": ["Bioenergy", "Mechanical", "Chemical"],
+    "interests": ["Biomass", "Combustion", "Gasification"],
+    "required_skills": ["Biomass Conversion", "Combustion Technology", "Gasification", "Emissions"],
+    "tools": ["Biomass Simulation", "Combustion Testing", "Emissions Analysis"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Waste-to-Energy Engineer",
+    "branch": ["Bioenergy", "Mechanical", "Chemical"],
+    "interests": ["Waste to Energy", "Incineration", "Resource Recovery"],
+    "required_skills": ["Waste Processing", "Energy Recovery", "Emissions Control", "Ash Handling"],
+    "tools": ["Waste-to-Energy Technology", "Emissions Control", "Thermal Treatment"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Railroad Engineer",
+    "branch": ["Rail Engineering", "Civil", "Mechanical"],
+    "interests": ["Railroad Systems", "Track Design", "Transportation"],
+    "required_skills": ["Track Design", "Alignment", "Gradients", "Railway Operations"],
+    "tools": ["Railroad Design Software", "Survey Equipment", "CAD"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Metro Systems Engineer",
+    "branch": ["Rail Engineering", "Electrical", "Mechanical"],
+    "interests": ["Metro Systems", "Urban Rail", "Mass Transit"],
+    "required_skills": ["Metro Operations", "Signaling", "Power Supply", "Rolling Stock"],
+    "tools": ["Metro Simulation", "Signaling Systems", "Power Systems"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Light Rail Engineer",
+    "branch": ["Rail Engineering", "Civil", "Electrical"],
+    "interests": ["Light Rail", "Tram Systems", "Urban Transit"],
+    "required_skills": ["Light Rail Design", "Infrastructure", "Operations", "Integration"],
+    "tools": ["Rail Design Software", "Operations Simulation", "CAD"],
+    "difficulty": "Medium"
+  },
+
+  {
+    "career": "Semiconductor Process Engineer",
+    "branch": ["Semiconductor", "Chemical", "Material Science"],
+    "interests": ["Semiconductor Manufacturing", "Process Development", "Yield"],
+    "required_skills": ["Process Development", "Yield Optimization", "Equipment", "Statistics"],
+    "tools": ["SEM", "Yield Management", "Process Tools", "Statistics"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Semiconductor Design Engineer",
+    "branch": ["Semiconductor", "CSE", "ECE"],
+    "interests": ["Chip Design", "VLSI", "Digital/Analog"],
+    "required_skills": ["VLSI Design", "RTL", "Physical Design", "Verification"],
+    "tools": ["Cadence", "Synopsys", "Vivado", "SPICE"],
+    "difficulty": "Very Hard"
+  },
+  {
+    "career": "Test Engineer",
+    "branch": ["Semiconductor", "ECE", "CSE"],
+    "interests": ["Chip Testing", "DFT", "Validation"],
+    "required_skills": ["Test Development", "DFT", "ATE", "Debug"],
+    "tools": ["ATE", "Test Pattern Generation", "Logic Analyzers"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Yield Engineer",
+    "branch": ["Semiconductor", "Chemical", "Material Science"],
+    "interests": ["Yield Improvement", "Defect Analysis", "Process Control"],
+    "required_skills": ["Yield Analysis", "Defect Reduction", "Statistics", "Equipment"],
+    "tools": ["Yield Management", "Inspection Equipment", "Statistics"],
+    "difficulty": "Hard"
+  },
+
+  {
+    "career": "Photonic Engineer",
+    "branch": ["Photonics", "ECE", "Material Science"],
+    "interests": ["Photonics", "Optics", "Light"],
+    "required_skills": ["Optical Design", "Fiber Optics", "Lasers", "Detectors"],
+    "tools": ["ZEMAX", "MATLAB", "Optical Test Equipment", "Fiber Systems"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Laser Engineer",
+    "branch": ["Photonics", "Mechanical", "ECE"],
+    "interests": ["Lasers", "Optical Engineering", "Applications"],
+    "required_skills": ["Laser Design", "Optical Components", "Safety", "Applications"],
+    "tools": ["Laser Systems", "Optical Design", "Power Measurement"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Optical Engineer",
+    "branch": ["Photonics", "ECE", "Mechanical"],
+    "interests": ["Optical Systems", "Lenses", "Mirrors", "Coatings"],
+    "required_skills": ["Optical Design", "Tolerance Analysis", "Coating", "Assembly"],
+    "tools": ["ZEMAX", "CODE V", "Interferometers", "Coating Systems"],
+    "difficulty": "Hard"
+  },
+  {
+    "career": "Fiber Optic Engineer",
+    "branch": ["Photonics", "ECE"],
+    "interests": ["Fiber Optics", "Telecommunications", "Sensors"],
+    "required_skills": ["Fiber Design", "Cable Manufacturing", "Splicing", "Testing"],
+    "tools": ["Fiber Equipment", "OTDR", "Fusion Splicers", "Testing"],
+    "difficulty": "Hard"
+  }
+]
+
